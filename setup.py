@@ -1,14 +1,14 @@
 from distutils.core import setup
 setup(
-  name = 'pyAQN',         # How you named your package folder (MyLib)
-  packages = ['pyAQN'],   # Chose the same as "name"
+  name = 'pyAQuN',         # How you named your package folder (MyLib)
+  packages = ['pyAQuN'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Python implementation of Adjusted Quantile Normalization',   # Give a short description about your library
   author = 'Shay Ben-Elazar',                   # Type in your name
   author_email = 'shaybenelazar@hotmail.com',      # Type in your E-Mail
-  url = 'https://github.com/YakhiniGroup/PyAQN',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/YakhiniGroup/PyAQN/archive/v0.1.tar.gz',    # I explain this later on
+  url = 'https://github.com/YakhiniGroup/PyAQuN',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/YakhiniGroup/PyAQuN/archive/v0.1.tar.gz',    # I explain this later on
   keywords = ['Quantile','Normalization'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'numpy'

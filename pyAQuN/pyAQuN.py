@@ -1,7 +1,10 @@
 import numpy as np
 
 
-class pyAQN:
+class pyAQuN:
+    def __init__(self):
+        pass
+
     @staticmethod
     def normalize(M):
         nans = np.isnan(M)
